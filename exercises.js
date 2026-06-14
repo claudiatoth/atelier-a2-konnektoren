@@ -57,7 +57,7 @@ function buildEx1() {
         html += `<div class="exercise-item">
             <span class="exercise-number">${i + 1}</span>
             <div class="input-group">
-                <p style="margin-bottom:6px;"><strong>${it.prompt}</strong><br><em style="color:#6b7280; font-size:0.9rem;">${it.hint}</em></p>
+                <p style="margin-bottom:6px;"><strong>${it.prompt}</strong><br><em style="color:#5A5147; font-size:0.9rem;">${it.hint}</em></p>
                 <input type="text" id="ex1-${it.id}" placeholder="weil / denn / deshalb / obwohl / trotzdem">
             </div>
             <div class="feedback" id="ex1-f${it.id}"></div>
@@ -170,7 +170,7 @@ function buildEx3() {
         html += `<div class="exercise-item">
             <span class="exercise-number">${i + 1}</span>
             <div class="input-group">
-                <p style="margin-bottom:6px;"><strong>${it.prompt}</strong><br><em style="color:#6b7280; font-size:0.9rem;">${it.hint}</em></p>
+                <p style="margin-bottom:6px;"><strong>${it.prompt}</strong><br><em style="color:#5A5147; font-size:0.9rem;">${it.hint}</em></p>
                 <input type="text" id="ex3-${it.id}" placeholder="verb conjugat...">
             </div>
             <div class="feedback" id="ex3-f${it.id}"></div>
@@ -226,7 +226,7 @@ function buildEx4() {
         html += `<div class="exercise-item">
             <span class="exercise-number">${i + 1}</span>
             <div class="input-group">
-                <p style="margin-bottom:6px;"><strong>${it.prompt}</strong><br><em style="color:#6b7280; font-size:0.9rem;">${it.hint}</em></p>
+                <p style="margin-bottom:6px;"><strong>${it.prompt}</strong><br><em style="color:#5A5147; font-size:0.9rem;">${it.hint}</em></p>
                 <input type="text" id="ex4-${it.id}" placeholder="verb (forma ich)...">
             </div>
             <div class="feedback" id="ex4-f${it.id}"></div>

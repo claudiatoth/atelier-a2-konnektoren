@@ -64,7 +64,7 @@ const theoryHTML = `
                 <a href="https://forms.gle/4ZH7n14PtCSk96pB6" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #10B981; color: white; padding: 13px 30px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1rem; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3);">
                     Trimite textul Claudiei →
                 </a>
-                <p style="color: #6b7280; font-size: 0.78rem; margin-top: 12px; font-style: italic;">
+                <p style="color: #5A5147; font-size: 0.78rem; margin-top: 12px; font-style: italic;">
                     ʚଓ Răspuns personal pe email · Nu uita să-ți treci adresa de email în formular
                 </p>
             </div>
@@ -134,7 +134,7 @@ const theoryHTML = `
 
             <p><strong>deshalb, deswegen, darum, daher</strong> = „de aceea / din acest motiv". Arată <strong>consecința</strong>. Sunt adverbe: stau pe <strong>locul 1</strong>, deci urmează <strong>inversiunea</strong> (verbul pe locul 2, apoi subiectul):</p>
 
-            <div class="theory-box" style="background:#fef3c7; border-left-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8; border-left-color:#D4A574;">
                 <h4>⚡ deshalb + VERB + subiect</h4>
                 <p style="margin:0;">Ich bin krank, <strong>deshalb</strong> <strong>bleibe</strong> ich zu Hause.<br>
                 <em>(deshalb pe locul 1 → verbul „bleibe" pe locul 2 → subiectul „ich" abia apoi)</em></p>

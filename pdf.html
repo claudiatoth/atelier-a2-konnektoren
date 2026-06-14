@@ -26,7 +26,7 @@
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: 'Georgia', 'Times New Roman', serif;
-            color: #1f2937;
+            color: #1F1B16;
             line-height: 1.45;
             font-size: 10.5pt;
             -webkit-print-color-adjust: exact;
@@ -59,13 +59,13 @@
         .cast-card { text-align: center; font-size: 8.5pt; page-break-inside: avoid; }
         .cast-card img { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto 4px; border: 2px solid #047857; }
         .cast-card .name { color: #065f46; font-weight: bold; font-size: 9pt; display: block; }
-        .cast-card .detail { color: #6b7280; font-style: italic; font-size: 7.5pt; display: block; }
+        .cast-card .detail { color: #5A5147; font-style: italic; font-size: 7.5pt; display: block; }
         /* ===== ANDREEA NOTE AVATAR — 44×56px (regula 15 PERSONAJE) ===== */
-        .andreea-note { display: flex; gap: 10px; align-items: flex-start; background: #fffbeb; border-left: 3px solid #f59e0b; padding: 8px 12px; margin: 8px 0; page-break-inside: avoid; }
+        .andreea-note { display: flex; gap: 10px; align-items: flex-start; background: #F5F0E8; border-left: 3px solid #D4A574; padding: 8px 12px; margin: 8px 0; page-break-inside: avoid; }
         .andreea-note-avatar { width: 44px; height: 56px; object-fit: contain; flex-shrink: 0; }
         .andreea-note-content { flex: 1; }
-        .andreea-note-content .speaker { font-weight: bold; color: #92400e; font-size: 10pt; margin-bottom: 3px; }
-        .andreea-note-content .text { color: #78350f; font-size: 9.5pt; font-style: italic; line-height: 1.5; }
+        .andreea-note-content .speaker { font-weight: bold; color: #5A5147; font-size: 10pt; margin-bottom: 3px; }
+        .andreea-note-content .text { color: #5A5147; font-size: 9.5pt; font-style: italic; line-height: 1.5; }
         .cover-divider {
             width: 140px;
             height: 3px;
@@ -82,7 +82,7 @@
         }
         .cover-subtitle {
             font-size: 13pt;
-            color: #6b7280;
+            color: #5A5147;
             font-style: italic;
             margin-bottom: 8px;
         }
@@ -100,7 +100,7 @@
         }
         .cover-series {
             font-size: 10pt;
-            color: #6b7280;
+            color: #5A5147;
             margin-bottom: 80px;
         }
         .cover-copyright {
@@ -111,7 +111,7 @@
         }
         .cover-notice {
             font-size: 9pt;
-            color: #9ca3af;
+            color: #8a8175;
             font-style: italic;
             margin-top: 6px;
         }
@@ -146,7 +146,7 @@
         }
         p { margin-bottom: 6px; }
         strong { color: #065f46; }
-        em { color: #4b5563; font-style: italic; }
+        em { color: #433d35; font-style: italic; }
         ul, ol { margin: 4px 0 8px 22px; }
         li { margin-bottom: 2px; }
 
@@ -164,7 +164,7 @@
             margin-bottom: 4px;
         }
         .info-box { border-left-color: #3b82f6; }
-        .warn-box { border-left-color: #f59e0b; }
+        .warn-box { border-left-color: #D4A574; }
         .example-box {
             border-left: 2px dashed #047857;
             padding: 4px 12px;
@@ -172,7 +172,7 @@
             page-break-inside: avoid;
         }
         .example-box .de { color: #065f46; font-weight: 600; }
-        .example-box .ro { color: #6b7280; font-style: italic; font-size: 9.5pt; margin-top: 1px; }
+        .example-box .ro { color: #5A5147; font-style: italic; font-size: 9.5pt; margin-top: 1px; }
 
         /* Tables (header alb cu border verde — economie de cerneală) */
         table {
@@ -197,8 +197,8 @@
         }
         table tr:nth-child(even) td { background: transparent; }
         td.verb { color: #047857; font-weight: bold; }
-        td.ro-text { color: #6b7280; font-style: italic; }
-        .ro-translation { display: block; color: #6b7280; font-style: italic; font-size: 9pt; margin-top: 1px; }
+        td.ro-text { color: #5A5147; font-style: italic; }
+        .ro-translation { display: block; color: #5A5147; font-style: italic; font-size: 9pt; margin-top: 1px; }
 
         /* Dialog (minimalist — fără fundal colorat) */
         .dialog-line {
@@ -209,7 +209,7 @@
         .dialog-line.left { border-left: 3px solid #3b82f6; }
         .dialog-line.right { border-left: 3px solid #047857; }
         .dialog-line .speaker { font-weight: bold; }
-        .dialog-line .ro { color: #6b7280; font-style: italic; font-size: 9.5pt; margin-top: 2px; }
+        .dialog-line .ro { color: #5A5147; font-style: italic; font-size: 9.5pt; margin-top: 2px; }
 
         /* Exercise blocks */
         .ex-block {
@@ -218,11 +218,11 @@
         }
         .ex-block h3 { color: #065f46; font-size: 12pt; margin-bottom: 5px; }
         .ex-block .instruction {
-            border-left: 3px solid #f59e0b;
+            border-left: 3px solid #D4A574;
             padding: 4px 12px;
             margin-bottom: 6px;
             font-size: 9.5pt;
-            color: #78350f;
+            color: #5A5147;
             font-style: italic;
         }
         .rezolvare-banner {
@@ -260,7 +260,7 @@
             margin-top: 2px;
         }
         .ex-a::before { content: "✓ Rezolvare: "; color: #065f46; }
-        .ex-explanation { color: #6b7280; font-size: 9pt; font-style: italic; margin-top: 1px; }
+        .ex-explanation { color: #5A5147; font-size: 9pt; font-style: italic; margin-top: 1px; }
 
         /* Flashcard list (compact 2-col) */
         .flashcards-grid {
@@ -275,7 +275,7 @@
             font-size: 10pt;
         }
         .fc-row .de { color: #047857; font-weight: bold; }
-        .fc-row .ro { color: #6b7280; font-style: italic; margin-left: 6px; }
+        .fc-row .ro { color: #5A5147; font-style: italic; margin-left: 6px; }
 
         /* Verb conjugation cards (minimalist — fără chenar, doar border-top verde) */
         .verb-card {
@@ -292,7 +292,7 @@
             margin-bottom: 6px;
         }
         .verb-card .vh .name { font-size: 13pt; color: #065f46; font-weight: bold; }
-        .verb-card .vh .ro { color: #6b7280; font-style: italic; font-size: 11pt; }
+        .verb-card .vh .ro { color: #5A5147; font-style: italic; font-size: 11pt; }
         .verb-card .vh .badge {
             display: inline-block;
             padding: 1px 7px;
@@ -315,12 +315,12 @@
             font-size: 10pt;
         }
         .verb-card .perfekt-box .de { color: #065f46; font-weight: 600; }
-        .verb-card .perfekt-box .ro { color: #6b7280; font-style: italic; font-size: 9.5pt; }
+        .verb-card .perfekt-box .ro { color: #5A5147; font-style: italic; font-size: 9.5pt; }
         .verb-card .note {
             font-size: 9.5pt;
-            color: #4b5563;
+            color: #433d35;
             padding: 4px 10px;
-            border-left: 3px solid #f59e0b;
+            border-left: 3px solid #D4A574;
             margin-top: 6px;
             font-style: italic;
         }
