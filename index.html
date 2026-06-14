@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier A2: Konnektoren (weil/denn/deshalb/obwohl/trotzdem) · Annettes Deutschkurs</title>
+    <meta property="og:title" content="Atelier A2: Konnektoren · Claudia Toth">
+    <meta property="og:description" content="Atelier de aprofundare A2 — conectorii și poziția verbului: weil/denn (cauză), deshalb/deswegen (consecință), obwohl/trotzdem (contrast) · Claudia Toth · Annettes Deutschkurs">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ro_RO">
+    <meta name="description" content="Atelier A2 — Konnektoren: weil/denn/deshalb/obwohl/trotzdem și unde pui verbul (final, locul 2 sau inversiune) · Claudia Toth">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#top" class="navbar-logo">ʚଓ Claudia Toth</a>
+        <ul class="navbar-menu">
+            <li><a href="#teorie" onclick="openSection(0)">Teorie</a></li>
+            <li><a href="#ex1" onclick="openSection(1)">Ex. 1</a></li>
+            <li><a href="#ex2" onclick="openSection(2)">Ex. 2</a></li>
+            <li><a href="#ex3" onclick="openSection(3)">Ex. 3</a></li>
+            <li><a href="#ex4" onclick="openSection(4)">Ex. 4</a></li>
+            <li><a href="#ex5" onclick="openSection(5)">Ex. 5</a></li>
+            <li><a href="#flashcards" onclick="openSection(6)">📇 Flashcards</a></li>
+            <li><a href="#verbe" onclick="openSection(7)">🔁 Verbe</a></li>
+            <li><a href="#final-test" onclick="openSection(8)">🎯 Test Final</a></li>
+            <li><a href="konnektoren.pdf" download>📄 PDF</a></li>
+            <li><a href="https://forms.gle/4ZH7n14PtCSk96pB6" target="_blank" rel="noopener noreferrer">✍️ Trimite textul</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="header">
+            <h1>ʚଓ Atelier: Konnektoren</h1>
+            <p class="subtitle">Cum legi ideile — cauză (weil/denn) · consecință (deshalb) · contrast (obwohl/trotzdem) și poziția verbului · Atelier de aprofundare A2</p>
+            <p>Claudia Toth · Annettes Deutschkurs</p>
+        </div>
+
+        <div class="cast-banner">
+            <h4>👋 Atelier de aprofundare — leagă cauză, consecință și contrast cu poziția corectă a verbului</h4>
+            <div class="cast-grid">
+                <div class="cast-card"><img src="images/andreea.png" alt="Andreea"><div class="name">Andreea 🇷🇴</div><div class="detail">Își explică alegerile</div></div>
+                <div class="cast-card"><img src="images/annette.png" alt="Annette"><div class="name">Annette</div><div class="detail">Profesoara · Berlin</div></div>
+                <div class="cast-card"><img src="images/florian.png" alt="Florian"><div class="name">Florian</div><div class="detail">Doctor · Berlin</div></div>
+                <div class="cast-card"><img src="images/carolina.png" alt="Carolina"><div class="name">Carolina</div><div class="detail">Fotografă · Berlin</div></div>
+                <div class="cast-card"><img src="images/mihai.png" alt="Mihai"><div class="name">Mihai</div><div class="detail">Bucătar · Potsdam</div></div>
+                <div class="cast-card"><img src="images/acar.png" alt="Acar"><div class="name">Acar</div><div class="detail">Maistru · Oranienburg</div></div>
+            </div>
+        </div>
+
+        <div style="background:#fef3c7; border-left:4px solid #f59e0b; padding:14px 20px; margin:20px 0; border-radius:8px;">
+            <p style="margin:0; color:#78350f; font-size:0.95rem;">⌨️ <strong>Tastatură fără caractere germane?</strong> Scrie <strong>ss</strong> pentru ß · <strong>ae</strong> pentru ä · <strong>oe</strong> pentru ö · <strong>ue</strong> pentru ü — sau direct litera simplă (a/o/u). Diacritice românești cu sau fără ăâîșț — totul merge.</p>
+        </div>
+
+        <div class="content">
+            <div class="section" id="teorie">
+                <div class="section-header" onclick="toggleMainSection(0)"><h3>ʚଓ TEORIE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-0"><div id="theory-container"></div></div>
+            </div>
+
+            <div class="section" id="ex1">
+                <div class="section-header" onclick="toggleMainSection(1)"><h3>ʚଓ Übung 1: Alege conectorul potrivit</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-1">
+                    <div id="ex1-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(1)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(1)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-1"></div>
+                </div>
+            </div>
+            <div class="section" id="ex2">
+                <div class="section-header" onclick="toggleMainSection(2)"><h3>ʚଓ Übung 2: Poziția verbului (alege corect)</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-2">
+                    <div id="ex2-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(2)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(2)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-2"></div>
+                </div>
+            </div>
+            <div class="section" id="ex3">
+                <div class="section-header" onclick="toggleMainSection(3)"><h3>ʚଓ Übung 3: Pune verbul la final (weil/obwohl)</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-3">
+                    <div id="ex3-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(3)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(3)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-3"></div>
+                </div>
+            </div>
+            <div class="section" id="ex4">
+                <div class="section-header" onclick="toggleMainSection(4)"><h3>ʚଓ Übung 4: Inversiune după deshalb/trotzdem</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-4">
+                    <div id="ex4-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(4)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(4)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-4"></div>
+                </div>
+            </div>
+            <div class="section" id="ex5">
+                <div class="section-header" onclick="toggleMainSection(5)"><h3>ʚଓ Übung 5: Traducere RO → DE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-5">
+                    <div id="ex5-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(5)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(5)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-5"></div>
+                </div>
+            </div>
+
+            <div class="section" id="flashcards">
+                <div class="section-header" onclick="toggleMainSection(6)"><h3>ʚଓ 📇 Flashcards — 32 cards cu pronunție</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-6"><div id="flashcards-container"></div></div>
+            </div>
+
+            <div class="section" id="verbe">
+                <div class="section-header" onclick="toggleMainSection(7)"><h3>ʚଓ 🔁 Verb-Konjugation - verbele cu conectori</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-7"><div id="verbs-container"></div></div>
+            </div>
+
+            <div class="section" id="final-test">
+                <div class="section-header" onclick="toggleMainSection(8)"><h3>ʚଓ 🎯 Test Final — Testează-ți cunoștințele!</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-8"><div id="final-test-container"></div></div>
+            </div>
+
+            <div class="theory-box" style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.3rem; font-weight: bold; color: #065f46;">🎉 Felicitări! Acum legi ideile ca un vorbitor avansat!</p>
+                <p style="margin-top: 12px;">Ai stăpânit cei 5 conectori și — cel mai important — <strong>poziția verbului</strong>: <strong>weil</strong> și <strong>obwohl</strong> trimit verbul la <strong>FINAL</strong> · <strong>denn</strong> păstrează ordinea normală · <strong>deshalb</strong> și <strong>trotzdem</strong> cer <strong>inversiunea</strong> (verbul imediat după). Cauză, consecință, contrast — toate sub control. Viel Erfolg!</p>
+                <p style="margin-top: 10px; font-style: italic; color: #6b7280;">Atelier de aprofundare · Annettes Deutschkurs</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="theory.js"></script>
+    <script src="exercises.js"></script>
+    <script src="flashcards.js"></script>
+    <script src="verbs.js"></script>
+    <script src="final-test.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
