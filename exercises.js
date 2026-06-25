@@ -10,6 +10,7 @@ function normalizeAnswer(str) {
         // ü→u, ö→o, ä→a (vocală simplă, NU ue/oe/ae): accept-urile sunt scrise fără umlaut
         // și astfel acceptăm și tastarea pe mobil fără umlaut. NU schimba în ue/oe/ae fără a rescrie accept-urile!
         .replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u')
+        .replace(/ae/g, 'a').replace(/oe/g, 'o').replace(/ue/g, 'u')
         .replace(/[ăâ]/g, 'a').replace(/î/g, 'i').replace(/[șş]/g, 's').replace(/[țţ]/g, 't')
         .replace(/…/g, '...').replace(/\s*\.\.\.\s*/g, ' ')
         .replace(/\s*\/\s*/g, ' ').replace(/\s*,\s*/g, ' ')
